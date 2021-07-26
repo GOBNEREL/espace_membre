@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: blueviolet;
+}
+
+/*.side-bar {
+    position: absolute;
+    width: 10%;
+    height: 90vh;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}*/
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    bottom: 0;
+    right: 0;
+}
+
+.im {
+    height: 100%;
+    width: 100%;
+}
+
+.user-icon {
+    position: absolute;
+    float: right;
+    border: none;
+    border-radius: 50px;
+    top: 1vh;
+    right: 5px;
+    padding: 0;
+}
+
+.user-icon img {
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#user-block {
+    display: none;
+}
+
+.user-block {
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(50, 50, 50, 1);
+    width: 290px;
+    height: 53vh;
+    right: 10px;
+    align-items: center;
+}
+
+#user-cool {
+    display: block;
+}
+
+.shadow {
+    border: none;
+    border-radius: 5px 0 0 0;
+    width: 290px;
+    height: 12vh;
+    background: rgba(27, 26, 26, 0.685);
+}
+
+.user-profile {
+    position: absolute;
+    float: right;
+    border: none;
+    border-radius: 50px;
+    top: 5vh;
+    right: 100px;
+}
+
+.user-profile img {
+    border: none;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.log {
+    border: 1px solid rgb(151, 135, 135);
+    width: 290px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.log button {
+    font-weight: bold;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shadows {
+    border: 1px solid yellow;
+    height: 10vh;
+    width: 290px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid yellow;
+    position: absolute;
+    bottom: 7vh;
+    text-align: center;
+}
+
+.shadows p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
